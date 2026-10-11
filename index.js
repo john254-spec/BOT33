@@ -11,15 +11,15 @@ import { fileURLToPath } from "node:url";
 
 import baileys from "@whiskeysockets/baileys";
 
-import baileys from "@whiskeysockets/baileys";
-
-const {
-    default: makeWASocket,
-    proto,
-    useMultiFileAuthState,
+import makeWASocket, {
     DisconnectReason,
-    fetchLatestBaileysVersion
-} = baileys;
+    BufferJSON,
+    proto,
+    initAuthCreds,
+    jidNormalizedUser,
+    fetchLatestWaWebVersion
+} from "@whiskeysockets/baileys";
+
 // =====================================================
 // CONFIGURATION
 // =====================================================
