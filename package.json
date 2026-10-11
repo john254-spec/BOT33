@@ -1,19 +1,19 @@
 {
-  "name": "jontez-whatsapp-bot",
-  "version": "1.0.0",
-  "description": "Jontez WhatsApp Bot with Baileys, SQLite and Express",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "engines": {
-    "node": "22.x"
-  },
-  "dependencies": {
-    "@whiskeysockets/baileys": "6.7.18",
-    "better-sqlite3": "^11.10.0",
-    "express": "^5.1.0",
-    "pino": "^9.7.0"
-  }
+"name": "jontez-whatsapp-bot",
+"version": "1.0.0",
+"description": "Jontez WhatsApp Bot with Baileys, Express and SQLite",
+"type": "module",
+"main": "index.js",
+"scripts": {
+"start": "node index.js"
+},
+"engines": {
+"node": "22.x"
+},
+"dependencies": {
+"@whiskeysockets/baileys": "6.7.24",
+"better-sqlite3": "^11.10.0",
+"express": "^5.1.0",
+"pino": "^9.7.0"
+}
 }
