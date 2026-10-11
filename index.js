@@ -8,15 +8,18 @@ import path from "node:path";
 import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
 
-import makeWASocket, {
-    DisconnectReason,
-    BufferJSON,
-    proto,
-    initAuthCreds,
-    jidNormalizedUser,
-    fetchLatestWaWebVersion
-} from "@whiskeysockets/baileys";
 
+import baileys from "@whiskeysockets/baileys";
+
+import baileys from "@whiskeysockets/baileys";
+
+const {
+    default: makeWASocket,
+    proto,
+    useMultiFileAuthState,
+    DisconnectReason,
+    fetchLatestBaileysVersion
+} = baileys;
 // =====================================================
 // CONFIGURATION
 // =====================================================
